@@ -94,13 +94,13 @@ With the above judgements about the dataset, the following will be implemented r
 ## <b><u>V. Exploratory Data Analysis (EDA):</u></b>
 ​
 EDA in this project will be executed by data visualization - charts, which are depended on data type, and serves materially the observation 
-of numerous instance by two or more dimensions for gaining their correlation. It assist effectively  to inspect smoothly the direction of each feature by others. 
+of numerous instance by two or more dimensions for gaining their correlation. It assist effectively  to inspect smoothly the direction of each feature by others. <br>
 ​
-The analysis will be initiated by observing the data distribution which intents on the sight of the standard deviation, the percentile and the outline  of the values in each feature for attaining the data dispersion to  evaluate the sufficiency of each feature. The following is the correlation between the features and the research objects for figuring out the proper fearures vitally of the predicted models. 
+The analysis will be initiated by observing the data distribution which intents on the sight of the standard deviation, the percentile and the outline  of the values in each feature for attaining the data dispersion to  evaluate the sufficiency of each feature. The following is the correlation between the features and the research objects for figuring out the proper fearures vitally of the predicted models. <br>
 ​
-It is a striking feature that EDA should be implemented by the fact tables to determine the elements of frequency, recency, quantity, quality, trendy and etc. In addition, the features with the same data type could be transformed to the same graph. The project's data set has three data types.
+It is a striking feature that EDA should be implemented by the fact tables to determine the elements of frequency, recency, quantity, quality, trendy and etc. In addition, the features with the same data type could be transformed to the same graph. The project's data set has three data types. <br>
 ​
-However, in terms of the design and function of this dataset, it's fact table is the transaction table which express the information of a sold item. This data could be ranked ordinally.
+However, in terms of the design and function of this dataset, it's fact table is the transaction table which express the information of a sold item. This data could be ranked ordinally. <br>
 ​
 it assists identify the vital feature affect to research object.
 ​
