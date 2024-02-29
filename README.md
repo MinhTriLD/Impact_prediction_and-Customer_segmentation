@@ -15,15 +15,15 @@ Some feature has been encoded or changed to conceal the identification.
 
 #### <b><u> Request 1: How web traffic impacts on business performance?
 #### <b><u> Request 2: Customer segmentation.
-### Loyalty:
- <b><u>Monetary
- <b><u>Demographic (Youth)
- <b><u>Demographic (Gender)
- <b><u>Geographic (Country/City)
- <b><u>Receiving newsletter
- <b><u>Posh & Trending
- <b><u>RFM (Recency-Frequency-Monetary)
- <b><u>Using Clustering model of Machine Learning
+ <b><u> Loyalty <br>
+ <b><u> Monetary<br>
+ <b><u>Demographic (Youth)<br>
+ <b><u>Demographic (Gender)<br>
+ <b><u>Geographic (Country/City)<br>
+ <b><u>Receiving newsletter<br>
+ <b><u>Posh & Trending<br>
+ <b><u>RFM (Recency-Frequency-Monetary)<br>
+ <b><u>Using Clustering model of Machine Learning<br>
 ## II. Introduction:
 This paper provides a full procedure of a data analysis project from 'init' to 'predict' with the great emphasis on business accumen for satisfying the request assigned. Over and above, the result of this project gives the acknowledge about how website application impact on business performance and the classification of customers to establish the business strategic plans. Noticably, this report should be implemented periodically to measure the performance and keep the figures been upto date.
 
