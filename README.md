@@ -100,12 +100,10 @@ The analysis will be initiated by observing the data distribution which intents 
 ​
 It is a striking feature that EDA should be implemented by the fact tables to determine the elements of frequency, recency, quantity, quality, trendy and etc. In addition, the features with the same data type could be transformed to the same graph. The project's data set has three data types. <br>
 ​
-However, in terms of the design and function of this dataset, it's fact table is the transaction table which express the information of a sold item. This data could be ranked ordinally. <br>
-​
-it assists identify the vital feature affect to research object.
+However, in terms of the design and function of this dataset, it's fact table is the transaction table which express the information of a sold item. This data could be ranked ordinally. It assists identify the vital feature affect to research object. <br>
 ​
 ​
-Object1 : Customer volum (y1)
+Object1 : Customer volum (y1) <br>
 Object2 : Product sales volume (y2)
 
 ## <b><u>1. Data distribution</u></b>
