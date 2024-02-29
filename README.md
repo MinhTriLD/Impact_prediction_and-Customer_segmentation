@@ -13,8 +13,17 @@ The material is supplied to complete this mission, includes the documents in typ
 
 Some feature has been encoded or changed to conceal the identification.
 
-Request 1: How web traffic impacts on business performance?
-Request 2: Customer segmentation.
+#### <b><u> Request 1: How web traffic impacts on business performance?
+#### <b><u> Request 2: Customer segmentation.
+### Loyalty:
+ <b><u>Monetary
+ <b><u>Demographic (Youth)
+ <b><u>Demographic (Gender)
+ <b><u>Geographic (Country/City)
+ <b><u>Receiving newsletter
+ <b><u>Posh & Trending
+ <b><u>RFM (Recency-Frequency-Monetary)
+ <b><u>Using Clustering model of Machine Learning
 ## II. Introduction:
 This paper provides a full procedure of a data analysis project from 'init' to 'predict' with the great emphasis on business accumen for satisfying the request assigned. Over and above, the result of this project gives the acknowledge about how website application impact on business performance and the classification of customers to establish the business strategic plans. Noticably, this report should be implemented periodically to measure the performance and keep the figures been upto date.
 
@@ -187,9 +196,58 @@ In this request, the matter is 'web traffic' object and the outcome is the numbe
 ​
 #### A. **Users:**
 * **<b><u>Item sales volume**
-This chart points out am ambigious interaction between the number of product's sold items and webpage's users. <br>
-
-However, all items are on stock of the company, were sold at least once time. The products approached upper 40.000 webpage's users, frequently, reach more than one transaction. <br>
-
-Maybe, this is the effort of company to deal with the inventory.
 * **<b><u>Customer conversion rate:**
+#### B. **Webpage existing duration:**
+* **<b><u>Item sales volume**
+* **<b><u>Customer conversion rate:**
+#### C. **Unique page view:**
+* **<b><u>Item sales volume**
+* **<b><u>Customer conversion rate:**
+  By these charts, it can be seen that the weak impact of the unique pageviews on the depended features. However, surely, there are correlational impacts existing between them. The products have the good traffic, have the better sales performance, for instance, the higher page view have more than one sold item, but not too high. Noticeable, the product having higher unique page views could be defined that have the low coversion rate. 
+
+Because, beside the transactional online, the products are purchased by offline too. In addition, toward clothing, the instore purchasing certainly bring the better customer experience than online purchasing. So, the low page view is also have several sold item.
+
+=> My conclusion is pageview make the good impact on sale performance. It stimulates the purchasing of items which have the low transaction.
+
+### 2. <b><u>Customer segmentation </u></b>
+Similar to the first request, the initial step is to deal with this request is determining the fundamental and consequent objects.
+
+In this request, the matter could be all numerical, categorical and datetime feature. The exception is the feature that characterise the identity, unique, distinct value.
+
+The main means which is exploited for the segmentation, is classification splitting and merging data by the quitely resemblance.
+
+The outcome are the new columns which classificate the customers by the ranked group.
+### <b><u>Loyalty:
+### <b><u>Monetary:
+### <b><u>Demographic (Youth):
+### <b><u>Demographic (Gender):
+### <b><u>Geographic (Country/City):
+### <b><u>Receiving newsletter:
+### <b><u>Posh & Trending:
+### <b><u>RFM (Recency-Frequency-Monetary):
+### <b><u>Using Clustering model of Machine Learning
+## <b><u>VII. Model training</u></b>
+### 1. <b><u>How web traffic impacts on business performance? </u></b>
+* Diagnostic prediction by Regression models of Machine Learning.
+#### Random Frorest Regressor
+In summary, these metrics suggest that the model is not performing well in predicting the dependent variable based on the independent variables. Further improvements to the model or consideration of other factors may be necessary to enhance its accuracy.        
+#### Linear Regression
+In summary, these metrics suggest that the model is not performing well in predicting the dependent variable based on the independent variables. Further improvements to the model or consideration of other factors may be necessary to enhance its accuracy.
+#### Logistic Regression
+In summary, these metrics suggest that the model is not performing well in predicting the dependent variable based on the independent variables. Further improvements to the model or consideration of other factors may be necessary to enhance its accuracy.
+## <b><u>Conclusion:</u></b>
+In terms of the accurace of this research through applying Machine Learning's models, the testing results show the high imbalance in the input data.<br>
+
+The percentile of models are skewed far away from their median. conseequently, the results of analysis models wich were used to predict the objects, are totally biased towards one side.<br>
+
+The insight gained from this analysis is there are correlational effects betwween them, however, it just expresses that effect for one dimension of the vector.<br>
+
+Particulartly, toward favorability object (Rating), It is quitely correct that the high initial technical indicators bring the high favored, but when decrease the initial technical indicators.<br>
+
+The object tend to go out the gap of a correct result. The contrast was witnessed in the model of the popularity (Installs).<br>
+
+To improve the accuracy of this research, the reseach object should be mined deeper in each categorical features.<br>
+
+Moreover, applying techniques which assist handling imbalanced data, need to be implemented such as resampling or collecting real data, etc. <br>
+### 2. <b><u>Customer segmentation </u></b>
+The clustering model for customer segmentation achieved the high accuracy and dependent for practicing actually. 
