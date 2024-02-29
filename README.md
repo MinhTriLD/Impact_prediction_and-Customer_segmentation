@@ -14,6 +14,8 @@ The material is supplied to complete this mission, includes the documents in typ
 Some feature has been encoded or changed to conceal the identification.
 
 #### <b><u> Request 1: How web traffic impacts on business performance?
+<b><u> Observation and analyze the interation to predict model.
+<b><u> Train model to enhance the accuracy and find the coefficients.
 #### <b><u> Request 2: Customer segmentation.
  <b><u> Loyalty <br>
  <b><u> Monetary<br>
