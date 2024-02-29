@@ -109,57 +109,57 @@ Object2 : Product sales volume (y2)
 ## <b><u>1. Data distribution</u></b>
 ### A. <b><u>Datetime feature:</u></b>
 
-This dataset has four columns data, include 'TransactionDate','DateJoined','Posted On (DD/MM/YYYY)' and 'Birthday'.
+This dataset has four columns data, include 'TransactionDate','DateJoined','Posted On (DD/MM/YYYY)' and 'Birthday'.<br>
 
-However, These columns are used to store the categorical value of the objects. 
+However, These columns are used to store the categorical value of the objects. <br>
 
-They record the date that instances of the object added to itself. Particularly, they help determining the existing time duration of object sufficiently.
+They record the date that instances of the object added to itself. Particularly, they help determining the existing time duration of object sufficiently.<br>
 
-* 'TransactionDate' give information about the timestampt when each transaction on a product item was done. It records events in the time series
+* 'TransactionDate' give information about the timestampt when each transaction on a product item was done. It records events in the time series<br>
 
-* 'DateJoined' give information about the timestampt when customers perform the first purchasing order. by each customer.
+* 'DateJoined' give information about the timestampt when customers perform the first purchasing order. by each customer.<br>
 
-* 'Birthday' give information about the timestampt when customers begin breathing.
+* 'Birthday' give information about the timestampt when customers begin breathing.<br>
 
-* 'Posted On (DD/MM/YYYY)' show the date when each web page of  each product is published by the website of the store. 
+* 'Posted On (DD/MM/YYYY)' show the date when each web page of  each product is published by the website of the store. <br>
 
 #### <b><u>Transaction date</u></b>
-This scatter expresses that the business activity of the store had maintained sustainability during the period of 2020. 
+This scatter expresses that the business activity of the store had maintained sustainability during the period of 2020. <br>
 
-The main reason is that during the period of 2020, the data is distributed stationary commonly inside a cluster from above 60 unit to under 90 units with min and max respectively just under 50 and 110 units. There are some timestamp when the sale witnessed the breakthrough indicators of the business operation. However, most points have the mean and the extent of variance and covariance be remained less the difference during this period. 
+The main reason is that during the period of 2020, the data is distributed stationary commonly inside a cluster from above 60 unit to under 90 units with min and max respectively just under 50 and 110 units. There are some timestamp when the sale witnessed the breakthrough indicators of the business operation. However, most points have the mean and the extent of variance and covariance be remained less the difference during this period. <br>
 
 In conclusion, the datatime feature is stationary, it means the models could be established easier with high accuracy follow this feature.
 #### <b><u>Date joined</u></b>
-This chart shows the number of the sold items that customers with the same date joined paying for. During this time series, the data distribution had less the varied. Because, the instances had been scateered followed a inline gap with a split duration, and existed a few outliners during the period.
+This chart shows the number of the sold items that customers with the same date joined paying for. During this time series, the data distribution had less the varied. Because, the instances had been scateered followed a inline gap with a split duration, and existed a few outliners during the period.<br>
 
-The mean, variance and covariance of each instances are too different to build a good model easily. This should not be used as a time series feature. 
+The mean, variance and covariance of each instances are too different to build a good model easily. This should not be used as a time series feature. <br>
 #### <b><u>Birthday</u></b>
-This is the date which provides the persoanal information, it is used to group individual object by their age - a demographic object.
+This is the date which provides the persoanal information, it is used to group individual object by their age - a demographic object.<br>
 
-In addition, during the period of 2020, the data is distributed stationary commonly inside a cluster from 1 unit to just above 60 units with min and max respectively at 1 and 90 units. There are some timestamp when  the number of values witnessed the breakthrough customer feature. However, most points have the mean and the extent of variance and covariance be remained less the difference during this period.
+In addition, during the period of 2020, the data is distributed stationary commonly inside a cluster from 1 unit to just above 60 units with min and max respectively at 1 and 90 units. There are some timestamp when  the number of values witnessed the breakthrough customer feature. However, most points have the mean and the extent of variance and covariance be remained less the difference during this period.<br>
 
 In conclusion, the datatime feature is stationary, it means the models could be established easier with high accuracy follow this feature.
 #### <b><u>Posted On (DD/MM/YYYY)</u></b>
-During the period of 2020, the data is distributed stationary commonly inside a cluster from 1 unit to 5 units with max at 9 units. There are some timestamp when the number of values witnessed the breakthrough of web page. However, most points have the mean and the extent of variance and covariance be remained less the difference during this period.
+During the period of 2020, the data is distributed stationary commonly inside a cluster from 1 unit to 5 units with max at 9 units. There are some timestamp when the number of values witnessed the breakthrough of web page. However, most points have the mean and the extent of variance and covariance be remained less the difference during this period.<br>
 
-In conclusion, the datatime feature is stationary, it means the models could be established easier with high accuracy follow this feature.
+In conclusion, the datatime feature is stationary, it means the models could be established easier with high accuracy follow this feature.<br>
+
+These charts show that the products were posted on the store's website, have tend to be sold more than others and also have caught more customers and orders than the others.<br>
+During the period of 2020, the data is distributed stationary commonly inside a cluster from 1 unit to 5 units with max at 9 units. There are some timestamp when the number of values witnessed the breakthrough of web page. However, most points have the mean and the extent of variance and covariance be remained less the difference during this period.<br>
+
+In conclusion, the datatime feature is stationary, it means the models could be established easier with high accuracy follow this feature.<br>
 
 These charts show that the products were posted on the store's website, have tend to be sold more than others and also have caught more customers and orders than the others.
-During the period of 2020, the data is distributed stationary commonly inside a cluster from 1 unit to 5 units with max at 9 units. There are some timestamp when the number of values witnessed the breakthrough of web page. However, most points have the mean and the extent of variance and covariance be remained less the difference during this period.
+These histograms count the quantity of instances and in the categorical features and express the data distribution in each feature.<br>
 
-In conclusion, the datatime feature is stationary, it means the models could be established easier with high accuracy follow this feature.
-
-These charts show that the products were posted on the store's website, have tend to be sold more than others and also have caught more customers and orders than the others.
-These histograms count the quantity of instances and in the categorical features and express the data distribution in each feature.
-
-The data distribution of categorical in this dataset has not the striking variation. Exception is the feature 'Country', which is a geographic description, and contains the obvious differences between the values. It means excepting 'Country' feature, the others could be used to divide the dataset for mitigating the noise more readily than 'Country'.
-These above charts show the number of customers who performed shopping by two means and with or without the suggestion. It poited out the number of sold items will be higher if the customers receive the newsletter of the update. There are no evident to determine the receiving newsletter will lead to shopping online. Because the number of customers who bought products online by newsletter, take just above 50% customers (6.778 customers). However, website assisted the online shopping immediately for approx 50% customers received newsletter. And another half of shopping online for the ones no received newsletter expectedly. Noticeably, the whole transaction of the offline shopping is just minimally above that of the online shopping (respectively 12.644 customers and 12.569 customers).  
+The data distribution of categorical in this dataset has not the striking variation. Exception is the feature 'Country', which is a geographic description, and contains the obvious differences between the values. It means excepting 'Country' feature, the others could be used to divide the dataset for mitigating the noise more readily than 'Country'.<br>
+These above charts show the number of customers who performed shopping by two means and with or without the suggestion. It poited out the number of sold items will be higher if the customers receive the newsletter of the update. There are no evident to determine the receiving newsletter will lead to shopping online. Because the number of customers who bought products online by newsletter, take just above 50% customers (6.778 customers). However, website assisted the online shopping immediately for approx 50% customers received newsletter. And another half of shopping online for the ones no received newsletter expectedly. Noticeably, the whole transaction of the offline shopping is just minimally above that of the online shopping (respectively 12.644 customers and 12.569 customers).  <br>
 
 ### <b><u>Revenue</u></b>
 ### <b><u>Item sales volume</u></b>
 ### <b><u>Customer volume</u></b>
 ### C. <b><u>Numerical feature</u></b>
-Regarding the data distribution, the findings were collude by these above graphs, include:
+Regarding the data distribution, the findings were collude by these above graphs, include:<br>
 
 1. There are three out of eight numerical feature which has been skewed nearly total to the left due to the numerous long upper wick, are 'uniquePaperviews','Paperviews', and 'Users' features illustrating the web traffic object. It means the majority of data cluster at the cap, but the minority scattered at the very higher volume. Notably, these three features share the same distribution pattern and illustrate the "web traffic" object.
 2. The relationship duration illustrate the object has been also skewed totally to the left, but the majority distributed during large extent under the middle with many upper outliners and poor lower outliners. The others have the moderately equal distribution for each part numerical value serie.
@@ -173,23 +173,23 @@ In terms of the correlation between each pair feature collaborated, these graphs
 
 ## <b><u>VI. Feature selecting & Modeling</u></b>
 ### 1. <b><u>How web traffic impacts on business performance? </u></b>
-To deal with this request, firstly, we have to determine the proper features illustrate obviously the material and consequent objects, which will be used to model the correlational impact.
+To deal with this request, firstly, we have to determine the proper features illustrate obviously the material and consequent objects, which will be used to model the correlational impact.<br>
 ​
-In this request, the matter is 'web traffic' object and the outcome is the number of issue being relevant to transaction. The detai is below:
+In this request, the matter is 'web traffic' object and the outcome is the number of issue being relevant to transaction. The detai is below:<br>
 ​
-* Material features : x = 'uniquePageviews', 'existing_duration' and 'users'.
+* Material features : x = 'uniquePageviews', 'existing_duration' and 'users'.<br>
 ​
-* Outcome features: y = 'item_sales_volume', 'customer_conversion_rate' and 'customer_volime'.
+* Outcome features: y = 'item_sales_volume', 'customer_conversion_rate' and 'customer_volime'.<br><br>
 ​
-**Note:** The material features are all features of 'traffic' object. However, the consequent features are the new feature are depended on their value and the value united by material feature of the fact table. Moreover, there are many features which describe one object, would be use intermittently to evaluate sales performance, but are depended meticulously on each other. Thus, this project just focus on features that are the least depended to reduce complex and optimize performance, are 'item_sales_volume', 'customer_conversion_rate' and 'relationship duration'. A similar pattern was applied for material features, the choices are 'uniquePageviews', 'existing_duration', 'Posted On (DD/MM/YYYY)','Channel','Newsletter'.
+**Note:** The material features are all features of 'traffic' object. However, the consequent features are the new feature are depended on their value and the value united by material feature of the fact table. Moreover, there are many features which describe one object, would be use intermittently to evaluate sales performance, but are depended meticulously on each other. Thus, this project just focus on features that are the least depended to reduce complex and optimize performance, are 'item_sales_volume', 'customer_conversion_rate' and 'relationship duration'. A similar pattern was applied for material features, the choices are 'uniquePageviews', 'existing_duration', 'Posted On (DD/MM/YYYY)','Channel','Newsletter'.<br>
 ​
 **Method:** Visualization the correlation between each depended feature with each the independed one.
 ​
 #### A. **Users:**
 * **<b><u>Item sales volume**
-This chart points out am ambigious interaction between the number of product's sold items and webpage's users. 
+This chart points out am ambigious interaction between the number of product's sold items and webpage's users. <br>
 
-However, all items are on stock of the company, were sold at least once time. The products approached upper 40.000 webpage's users, frequently, reach more than one transaction. 
+However, all items are on stock of the company, were sold at least once time. The products approached upper 40.000 webpage's users, frequently, reach more than one transaction. <br>
 
 Maybe, this is the effort of company to deal with the inventory.
 * **<b><u>Customer conversion rate:**
